@@ -30,7 +30,7 @@ export const SiderBar = () => {
             {
                 tabBarShowLabel: false,
                 tabBarItemStyle: {
-                    width:'100%',
+                    width: '100%',
                     height: '100%',
                     justifyContent: 'center',
                     alignItems: 'center',
@@ -45,7 +45,8 @@ export const SiderBar = () => {
                     overflow: 'hidden',
                     borderWidth: 1,
                     borderColor: '#0F0D23'
-                }
+                },
+                sceneStyle: { backgroundColor: 'transparent' },
             }
         }>
             {tabElements.map((tabs) => (
